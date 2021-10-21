@@ -1,0 +1,32 @@
+.navbar-brand{
+    font-size: medium;
+    text-shadow: black;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.navbar-nav{
+    font-size: medium;
+    margin-left: 50 rem;
+    text-shadow: rgb(2, 2, 2);
+    text-align: right;
+}
+.header-button{
+    background: rgb(0, 140, 255);
+    height: 50px;
+    position:fixed;
+    top:0;
+    width:100%;}
+
+    h1{
+        color: white;
+        line-height: 2;
+        font-family: var (sans-serif);
+        font-size: small;
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        font-weight: 600;
+    }
+
+    img {
+        margin-top: 0rem;
+    }
