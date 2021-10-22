@@ -1,0 +1,44 @@
+.header-banner{
+background: blue;
+height: 50px;
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+
+label{
+
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+margin-top: 1rem;
+
+
+}
+
+.h1-titulos{
+
+    color: white;
+    
+    
+}
+
+hr{
+
+    color: blue;
+}
+
+button.boton-m{
+
+    background:blue;
+    color: white;
+    
+
+}
+
+
+
+
