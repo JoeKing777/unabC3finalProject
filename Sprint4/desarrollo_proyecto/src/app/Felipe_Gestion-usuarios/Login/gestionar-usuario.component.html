@@ -1,0 +1,35 @@
+    <div class="main mt-md-3 mb-3">
+        <div class="col-md-6 col-sm-12">
+           <div class="login-form mt-md-3 mb-3">
+              <form>
+                  <div class="logo" >
+                    <td><img src=".\assets\imagenes\logo.png" height="140" width="260"  ></td>
+                  </div>
+              <div class="form-group mt-md-3 mb-3"> 
+                  <label>Nombre usuario</label>
+                  <input type="text" class="form-control" placeholder="Usuario">
+              </div>
+              <div class="form-group mt-md-3 mb-3">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-control" placeholder="Contraseña">
+              </div>
+              <div class="input-group justify-content-between">
+                 <div class="input-group-prepend">
+                    <div class="input-group-text mt-md-3 mb-3">
+                      <input type="checkbox" aria-label="Radio button for following text input">
+                      <label class="label-black form-check-label ps-2" for="">Recuerdame</label>
+                    </div>
+                 </div>
+                    <a class="underlineHover mt-md-3 mb-3" href="#">¿Olvidaste la contaseña?</a>
+                    
+              </div>
+                 <div class="">
+                  <a [routerLink]="['perfil']">    
+                     <button  class="btn btn-primary btn-sm" type="submit" routerLink="">Ingresar</button>
+                 </a>
+               </div>
+              </form>
+           </div>
+        </div>
+     </div>
+
