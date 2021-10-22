@@ -1,0 +1,117 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+   <div class="container-fluid">
+     <a class="navbar-brand" routerLink="/pagina_principal">School Management System</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+ 
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Perfil
+           </a>
+           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li><a class="dropdown-item" routerLink="/Editar_perfil">Editar</a></li>
+             <li><a class="dropdown-item" routerLink="/cambiar_usuario">Cambiar Contraseña</a></li>
+             <li><hr class="dropdown-divider"></li>
+           </ul>
+ 
+         </li>
+        
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Gestion de Usuarios
+           </a>
+           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li><a class="dropdown-item" routerLink="/nuevo_usuario">Crear Nuevo Usuario</a></li>
+             <li><a class="dropdown-item" routerLink="/actualizar_usuario">Actualizar</a></li>
+             <li><a class="dropdown-item" routerLink="/borrar_usuario">Borrar</a></li>
+             <li><hr class="dropdown-divider"></li>
+           </ul>
+           
+         </li>
+ 
+         <li class="nav-item">
+           <a class="nav-link" routerLink="/gestionar_calificaciones">Calificaciones</a>
+         </li>
+ 
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Matrículas
+           </a>
+           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <li><a class="dropdown-item" routerLink="/gestion-matricula">Registrar</a></li>
+             <li><a class="dropdown-item" routerLink="/gestion-actualizar" > Actualizar</a></li>
+             <li><a class="dropdown-item" routerLink="/gestion-consultas">Consultar</a></li>
+             <li><a class="dropdown-item" routerLink="/gestion-eliminar">Borrar</a></li>
+             <li><hr class="dropdown-divider"></li>
+           </ul>
+           
+           <li class="nav-item">
+             <a class="nav-link" routerLink="/gestion_reporte">Reportes</a>
+           </li>
+ 
+          
+         
+       </ul>
+       <form class="d-flex">
+         
+       
+       </form>
+     </div>
+   </div>
+ 
+  
+ </nav>
+ 
+ <img src=".\assets\imagenes\logo.png" alt="" width="10%">
+ 
+ 
+ 
+ <body class="plce-in">
+  
+ </body>
+ 
+   <hr size="20px" width="100%" >
+ 
+   
+      
+   
+   
+   
+   <div class="main mt-md-3 mb-3">
+        <div class="col-md-6 col-sm-12">
+           <div class="login-form mt-md-3 mb-3">
+              <form>
+                  <div class="logo" >
+                    <td><img src=".\assets\imagenes\logo.png" height="140" width="260"  ></td>
+                  </div>
+              <div class="form-group mt-md-3 mb-3">
+                  <label>Nombre usuario</label>
+                  <input type="text" class="form-control" placeholder="Usuario">
+              </div>
+              <div class="form-group mt-md-3 mb-3">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-control" placeholder="Contraseña">
+              </div>
+              <div class="input-group justify-content-between">
+                 <div class="input-group-prepend">
+                    <div class="input-group-text mt-md-3 mb-3">
+                      <input type="checkbox" aria-label="Radio button for following text input">
+                      <label class="label-black form-check-label ps-2" for="">Recuerdame</label>
+                    </div>
+                 </div>
+                    <a class="underlineHover mt-md-3 mb-3" routerLink="/recovery">¿Olvidaste la contaseña?</a>
+                    
+              </div>
+                 <div class="">
+                  <a [routerLink]="['perfil']">    
+                     <button  class="btn btn-primary btn-sm" type="submit" routerLink="/perfil">Ingresar</button>
+                 </a>
+               </div>
+              </form>
+           </div>
+        </div>
+     </div>
+

@@ -1,0 +1,112 @@
+
+h1{
+    color: white;
+    line-height: 1.5;
+    font-family: var(sans-serif);
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-size: medium;
+
+}
+
+
+.dj-banner{
+height:70em;
+margin-top: 1.5em;
+}
+.dj-bg{
+    height:70px;
+    
+}
+.menu-button__icon {
+    width: 24px;
+    cursor: pointer;
+    height: 24px;
+    fill: var(--primary-color);
+    position: relative;
+    top: -38px;
+    display: block;
+    margin-left: auto;
+}
+                                    /* parte del login*/
+body {
+    font-family: "Lato", sans-serif;
+    
+}
+
+
+.sidenav {
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 80px;
+}
+
+
+.main {
+    padding: 120px 20px;
+    font-size: 1.2em;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        
+        
+    }
+    .imaimg-responsive{
+        margin: 0%;
+        }
+    .logo{
+        display: inline-flex;
+        vertical-align: top;
+        align-items: center;
+        
+    }
+
+    .login-form{
+        margin-top: 10%;
+        
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+.underlineHover{
+    margin-left: 1em;
+}
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+

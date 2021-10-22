@@ -1,0 +1,250 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/pagina_principal">School Management System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Perfil
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/Editar_perfil">Editar</a></li>
+            <li><a class="dropdown-item" routerLink="/cambiar_usuario">Cambiar Contraseña</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gestion de Usuarios
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/nuevo_usuario">Crear Nuevo Usuario</a></li>
+            <li><a class="dropdown-item" routerLink="/actualizar_usuario">Actualizar</a></li>
+            <li><a class="dropdown-item" routerLink="/borrar_usuario">Borrar</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+          
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/gestionar_calificaciones">Calificaciones</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Matrículas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/gestion-matricula">Registrar</a></li>
+            <li><a class="dropdown-item" routerLink="/gestion-actualizar" > Actualizar</a></li>
+            <li><a class="dropdown-item" routerLink="/gestion-consultas">Consultar</a></li>
+            <li><a class="dropdown-item" routerLink="/gestion-eliminar">Borrar</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/gestion_reporte">Reportes</a>
+          </li>
+
+         
+        
+      </ul>
+      <form class="d-flex">
+        
+      
+      </form>
+    </div>
+  </div>
+
+ 
+</nav>
+
+<img src=".\assets\imagenes\logo.png" alt="" width="10%">
+
+
+
+<body class="plce-in">
+ 
+</body>
+
+  <hr size="20px" width="100%" >
+
+  
+  
+
+
+
+<div class="container-lg bg-primary"></div>
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<body class="plce-in">
+  <div class="row">
+    <div class="col-md-3 border-right mt-3 ms-4">
+
+     
+    </div>
+    <div class="col-md-8 border-right">
+      <h1 class="text-right mt-2">Gestionar Calificaciones</h1>
+    </div>
+  </div>
+</body>
+<hr class="dd" size="20px" width="100%"na >
+<div class="container">
+  <div class="row">
+    <div class="col-md-2" >
+      <img src=".\assets\imagenes\usuario.png" alt="" width="50%" class="rounded mx-auto d-block">
+      <br><p class="text-center">Nombre: Milena Chacon<br>Docente</p>
+    </div>
+    <div class="col-md-5 modal-dialog-centered ">
+      <div class="text-center">
+        <label for="inputState">Asignatura</label>
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Seleccione
+            <option value="1"> Biología</option>
+            <option value="2">Educación Física</option>
+            <option value="3">Filosofía</option>
+            <option value="4">Física</option>
+            <option value="5">Geología</option>
+            <option value="6">Inglés</option>
+            <option value="7">Lengua Castellana y Literatura I Filosofía</option>
+            <option value="8">Matemáticas</option>
+            <option value="9">Química</option>
+            <option value="10">Religión</option>
+          </select>
+      </div>
+    </div>
+    <div class="col-md-2 modal-dialog-centered mt-2">
+      <div class="text-center">
+        <label for="inputState">Curso</label>
+        <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+          <option selected>Seleccione
+          <option value="1">1º</option>
+          <option value="2">2º</option>
+          <option value="3">3º</option>
+          <option value="4">4º</option>
+          <option value="5">5º</option>
+          <option value="6">6º</option>
+          <option value="7">7º</option>
+          <option value="8">8º</option>
+          <option value="9">9º</option>
+          <option value="10">10º</option>
+          <option value="11">11º</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-2 modal-dialog-centered mt-2">
+      <div class="text-center">
+        <label for="inputState">Periodo</label>
+        <select class="form-select form-select-sm " aria-label=".form-select-sm example">
+          <option selected>Seleccione
+          <option value="1">1ro</option>
+          <option value="2">2do</option>
+          <option value="3">3er</option>
+          <option value="4">4to</option>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-1 modal-dialog-centered mt-3">
+      <button  class="btn btn-primary profile-button btn-sm" type="button">Buscar</button>
+    </div>
+
+  </div>
+</div>
+<hr class="dd" size="20px" width="100%"na >
+
+<div>
+  <table class="table" >
+    <thead>
+      <tr>
+        <th scope="col">Código</th>
+        <th scope="col">Apellidos Estudiante</th>
+        <th scope="col">Nombres Estudiante</th>
+        <th scope="col">Calificación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>CUJAR ALARCON</td>
+        <td>PAOLA CONSUELO</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>GOMEZ</td>
+        <td>ADRIANA</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>SALCEDO SEGURA</td>
+        <td>MARCELA</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>DUARTE SANDOVAL</td>
+        <td>ALEXANDER</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>SANTANILLA CARVAJAL</td>
+        <td>JOSE</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>MONTOYA MONTOYA</td>
+        <td>AMPARO</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>LOZANO SANTOS</td>
+        <td>MARIA</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td>ZAMBRANO</td>
+        <td>MARITZA</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th scope="row">9</th>
+        <td>ACUÑA MENDOZA</td>
+        <td>CAROLINA</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th scope="row">10</th>
+        <td>CORTES BARRETO</td>
+        <td>JORGE HUMBERTO</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <th scope="row">11</th>
+        <td>GUTIERREZ ROMERO</td>
+        <td>ANDREA PAOLA</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <th scope="row">12</th>
+        <td>GUZMAN ROJAS</td>
+        <td>LUIS FERNANDO</td>
+        <td>5</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+
+

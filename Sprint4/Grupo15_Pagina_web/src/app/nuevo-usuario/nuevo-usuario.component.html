@@ -1,0 +1,225 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/pagina_principal">School Management System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Perfil
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/Editar_perfil">Editar</a></li>
+              <li><a class="dropdown-item" routerLink="/cambiar_usuario">Cambiar Contraseña</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+  
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gestion de Usuarios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/nuevo_usuario">Crear Nuevo Usuario</a></li>
+              <li><a class="dropdown-item" routerLink="/actualizar_usuario">Actualizar</a></li>
+              <li><a class="dropdown-item" routerLink="/borrar_usuario">Borrar</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+            
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/gestionar_calificaciones">Calificaciones</a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Matrículas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/gestion-matricula">Registrar</a></li>
+              <li><a class="dropdown-item" routerLink="/gestion-actualizar" > Actualizar</a></li>
+              <li><a class="dropdown-item" routerLink="/gestion-consultas">Consultar</a></li>
+              <li><a class="dropdown-item" routerLink="/gestion-eliminar">Borrar</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+            
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/gestion_reporte">Reportes</a>
+            </li>
+  
+           
+          
+        </ul>
+        <form class="d-flex">
+          
+        
+        </form>
+      </div>
+    </div>
+  
+   
+  </nav>
+  
+  <img src=".\assets\imagenes\logo.png" alt="" width="10%">
+  
+  
+  
+  <body class="plce-in">
+   
+  </body>
+  
+    <hr size="20px" width="100%" >
+  
+    
+    
+
+
+
+
+<div class="container rounded bg-light mb-5 border" >
+     <div class="col-md-4 mt-">
+        <div class="form-floating mt-3 mb-3">
+            <Select class="form-select" id="floatingSelectGrid">
+                <option selected>Seleccione un perfil</option>
+                <option value="">Adminisrador</option>
+                <option value="">Docente</option>
+                <option value="">Estudiante</option>
+            </Select>
+            <label for="floatingSelectGrid">Tipo de perfil</label>
+        </div>     
+    </div>
+</div>
+<div class="container rounded bg-light border ">
+    <div class="col-md-4 mb-3">
+        <div class="">
+            <label for="form-floating"> codigo de usuario:</label><input type="text" class="form-control" placeholder="Ingresa un codigo ">
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="">
+            <label for="form-floating"> Contraseña:</label><input type="text" class="form-control" placeholder="Ingresa una contraseña ">
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="">
+            <label for="form-floating">Repite la contraseña:</label><input type="text" class="form-control" placeholder="Ingresa de nuevo la contraseña">
+
+        </div>
+
+    </div>
+</div>
+<div class="container rounded mt-5 md-5 bg-light border">
+    <div class="col-md-2 align-content-center text-center">
+    <img class="rounded-circle mt-5" src=".\assets\imagenes\fotoperfil.jpg" alt="" width="110" height="100">
+    <div>
+    <a href="#"> Ingresa una foto</a>        
+    </div>
+    </div>
+    <div class="col-md-5 mb-3 mt-3">
+        <div class="col-md-12"><label class="form">Nombre:</label><input type="text" class="form-control" placeholder="Nombres" value=""> </div>
+        <div class="col-md-12"><label class="form">Apellido:</label><input type="text" class="form-control" placeholder="Apellidos" value=""></div>
+        <div class="col-md-12"><label class="form">Dirección:</label><input type="text" class="form-control" placeholder="Dirección" value=""></div>
+        <div class="col-md-12"><label class="form">Correo:</label><input type="text" class="form-control" placeholder="Correo electronico" value=""></div>
+    </div>
+    <div class="col-md-5 mb-3 mt-4">
+        <div class="col-md-12 mb-3">
+            <div class="form-floating">
+                <Select class="form-select" id="floatingSelectGrid">
+                    <option selected>Tipo de identificación</option>
+                    <option value="">Cedula</option>
+                    <option value="">Tarjeta de identidad</option>
+                    <option value="">Cedula extranjera</option>
+                </Select>
+                <label class="form">Identificación:</label>
+            </div>
+        </div>
+        <div class="col-md-12"><label class="form">Numero de identificación:</label><input type="text" class="form-control" placeholder="Digita el numero de identificación" value=""></div>
+        <div class="col-md-12"><label class="form">Telefono:</label><input type="text" class="form-control" placeholder="Telefono/celular" value=""></div>
+        <div class="col-md-12"><label class="form">Rol Institucional:</label><input type="text" class="form-control" placeholder="Digita el rol Institucional" value=""></div>
+    </div>
+</div>
+<div class="container rounded mt-5 md-5 bg-light border">
+    <div class="">
+        <div class="col-md-6 mt-3">
+            <div class="col-md-12 mb-3">
+                <div class="form-floating">
+                    <Select class="form-select" id="floatingSelectGrid">
+                        <option selected>Seleccione la Jornada</option>
+                        <option value="">Diurna</option>
+                        <option value="">Nocturna</option>
+                        <option value="">Mixta</option>
+                        <option value="">Sabatina</option>
+                    </Select>
+                    <label class="form">Jornada Labora:</label>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="col-md-6 mt-3">
+            <div class="col-md-12 mb-3">
+                <div class="form-floating">
+                    <Select class="form-select" id="floatingSelectGrid">
+                        <option selected>Seleccione un grupo</option>
+                        <option value="">6º</option>
+                        <option value="">7º</option>
+                        <option value="">8º</option>
+                        <option value="">9º</option>
+                        <option value="">10º</option>
+                        <option value="">11º</option>
+                    </Select>
+                    <label class="form">Grupo a cargo:</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="col-md-6 mt-3 mb-3">
+            <div class="col-md-12">
+                <div class="form-floating">
+                    <Select class="form-select" id="floatingSelectGrid">
+                        <option selected>Seleccione la asignatura</option>
+                        <option value="">Lengua Castellana</option>
+                        <option value="">Matemáticas</option>
+                        <option value="">Inglés</option>
+                        <option value="">Geogrfía e Historia</option>
+                        <option value="">Biología y Geología</option>
+                        <option value="">Educación Física</option>
+                        <option value="">Religión o Valores éticos</option>
+                        <option value="">Plástica</option>
+                        <option value="">Tecnología</option>
+                    </Select>
+                    <label class="form">Asignatura a cargo:</label>
+                </div>
+            </div>  
+        </div><div class="col-md-6 mt-3 mb-5">
+            <div class="col-md-12 mb-3">
+                <div class="form-floating">
+                    <Select class="form-select" id="floatingSelectGrid">
+                        <option selected>Seleccione un grupo</option>
+                        <option value="">Grupo A</option>
+                        <option value="">Grupo B</option>
+                    </Select>
+                    <label class="form">Grupo de la asignatura:</label>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+    
+</div>
+<div class="container rounded bg-light mb-5 mt-5" >
+    <div class="d-md-flex justify-content-md-end">
+        <a href=""><button class="btn-lg mt-md-2 mb-2  " type="button">Guardar</button>
+        </a>
+        <a href=""><button class="btn-lg mt-md-2 mb-2 " type="button">Cancelar</button>
+        </a>
+
+    </div>
+
+</div>
+

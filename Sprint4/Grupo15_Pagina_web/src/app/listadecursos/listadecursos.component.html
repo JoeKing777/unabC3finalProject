@@ -1,0 +1,179 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/pagina_principal">School Management System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Perfil
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/Editar_perfil">Editar</a></li>
+              <li><a class="dropdown-item" routerLink="/cambiar_usuario">Cambiar Contraseña</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+  
+          </li>
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Gestion de Usuarios
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/nuevo_usuario">Crear Nuevo Usuario</a></li>
+              <li><a class="dropdown-item" routerLink="/actualizar_usuario">Actualizar</a></li>
+              <li><a class="dropdown-item" routerLink="/borrar_usuario">Borrar</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+            
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/gestionar_calificaciones">Calificaciones</a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Matrículas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/gestion-matricula">Registrar</a></li>
+              <li><a class="dropdown-item" routerLink="/gestion-actualizar" > Actualizar</a></li>
+              <li><a class="dropdown-item" routerLink="/gestion-consultas">Consultar</a></li>
+              <li><a class="dropdown-item" routerLink="/gestion-eliminar">Borrar</a></li>
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+            
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/gestion_reporte">Reportes</a>
+            </li>
+  
+           
+          
+        </ul>
+        <form class="d-flex">
+          
+        
+        </form>
+      </div>
+    </div>
+  
+   
+  </nav>
+  
+  <img src=".\assets\imagenes\logo.png" alt="" width="10%">
+  
+  
+  
+  <body class="plce-in">
+   
+  </body>
+  
+    <hr size="20px" width="100%" >
+  
+    
+    
+
+
+<div class="container mt-3">
+    <div class="col-md-3">
+        
+    </div>
+</div>
+<hr class="py-2">
+<div class="container-lg bg-light">
+    <div class="col-md-12">
+        <div class="card bg-light mt-12 p-5 border-dark" style=" height: 30rem;">
+            <div class="card mt-md-12 " style=" height: 25rem;">
+                <div class="col-md-12 mt-3 mb-3">
+                    <div class="row">
+                        <div class="form-floating col-md-6">
+                            <select class="form-select" id="form-floating">
+                                <option selected>Seleccionar un grado</option>
+                                <option value="">1º</option>
+                                <option value="">2º</option>
+                                <option value="">3º</option>
+                                <option value="">4º</option>
+                                <option value="">5º</option>
+                                <option value="">6º</option>
+                                <option value="">7º</option>
+                                <option value="">8º</option>
+                                <option value="">9º</option>
+                                <option value="">10º</option>
+                                <option value="">11º</option>
+                            </select>
+                        <label class="form">Grado:</label>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                    <select class="form-select" id="form-floating">
+                                        <option selected>Selecciona un Período </option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                        <option value="">4</option>
+                                    </select>
+                                        <label class="form">Período:</label>
+                            </div>       
+                        </div>
+                        <div class="d-grid gap-2 col-12 justify-content-center">
+                            <button class="btn btn-primary" type="button">Buscar</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Periodo</th>
+                                <th scope="col">Codigo</th>
+                                <th scope="col">Nombre</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                
+                              </tr>
+                             <tr>
+                              <th scope="row">4</th>
+                              <td colspan="2"></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                             </tr>
+                            </tbody>
+                          </table>
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
