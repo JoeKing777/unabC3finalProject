@@ -1,0 +1,369 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/pagina_principal">School Management System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Perfil
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/Editar_perfil">Editar</a></li>
+            <li><a class="dropdown-item" routerLink="/cambiar_usuario">Cambiar Contraseña</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gestion de Usuarios
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/nuevo_usuario">Crear Nuevo Usuario</a></li>
+            <li><a class="dropdown-item" routerLink="/actualizar_usuario">Actualizar</a></li>
+            <li><a class="dropdown-item" routerLink="/borrar_usuario">Borrar</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+          
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/gestionar_calificaciones">Calificaciones</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Matrículas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/gestion-matricula">Registrar</a></li>
+            <li><a class="dropdown-item" routerLink="/gestion-actualizar" > Actualizar</a></li>
+            <li><a class="dropdown-item" routerLink="/gestion-consultas">Consultar</a></li>
+            <li><a class="dropdown-item" routerLink="/gestion-eliminar">Borrar</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
+          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/gestion_reporte">Reportes</a>
+          </li>
+
+         
+        
+      </ul>
+      <form class="d-flex">
+        
+      
+      </form>
+    </div>
+  </div>
+
+ 
+</nav>
+
+<img src=".\assets\imagenes\logo.png" alt="" width="10%">
+
+
+
+<body class="plce-in">
+ 
+</body>
+
+  <hr size="20px" width="100%" >
+
+  
+
+
+<div class="container mt-2">
+<form action="">
+  <h1 class="text-center">Actualizar Datos del Estudiante</h1>
+<div class="row">
+
+  <div class="col-sm-4">
+    <div class="form-group">
+    <label for="">  Documento </label> <input type="number" class="form-control" placeholder="Documento Estudiante Actualizar"> 
+    </div>
+    </div>
+
+    <div class="text-lg-center">
+    <button type="submit" class="btn btn-primary">Buscar</button>
+  </div>
+    <p></p>
+
+    <hr size="20px" width="100%">
+ 
+ 
+    <div class="col-sm-6">
+      <div class="form-group">
+        <label for="">Curso A Ingresa</label><input type="number" class="form-control" placeholder="Agregue el Curso en el cual se va matricular">
+          </div>
+    </div>
+  
+    <div class="col-sm-6">
+      <div class="form-group">
+      <label for="">Fecha Matrícula</label><input type="date" class="form-control" placeholder="Ingrese la fecha de Registro">
+      </div>
+      </div>
+  
+      <p></p>
+    
+      <hr size="20px" width="100%"  >
+   
+  
+  
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for="">Nombre</label><input type="text" class="form-control" placeholder="Agregue el nombre">
+      </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="for-group">
+      <label for="">Apellido</label><input type="text" class="form-control" placeholder="Agregue Apellido">
+      </div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="col-sm-4">
+  <div class="form-group">
+  <label for="">  Documento </label> <input type="number" class="form-control" placeholder="Documento"> 
+  </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for=""> Eps </label> <input type="text" class="form-control" placeholder="Eps">
+    </div>
+  </div>
+  
+  <div class="col-sm-4">
+  <div class="form-group">
+  <label for=""> Edad </label> <input type="number" class="form-control" placeholder="">
+  </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for="">Lugar de Nacimiento</label> <input type="text" class="form-control" placeholder="Ciudad de Nacimiento">
+  </div>
+  </div>
+  
+  <div class="col-sm-4">
+    <div class="form-group">
+      <label for="">Barrio</label> <input type="text" class="form-control" placeholder="Barrio">
+    </div>
+    </div>
+  
+  <div class="col-sm-4">
+  <div class="form-group">
+    <label for="">Dirección</label> <input type="text" class="form-control" placeholder="Dirección">
+  </div>
+  </div>
+  
+  
+  
+    <div class="col-sm-4">
+      <div class="form-group">
+        <label for="">RH</label> <input type="text" class="form-control" placeholder="Tipo de sangre">
+      </div>
+      </div>
+  
+      
+  
+      <div class="col-sm-4">
+        <div class="form-group">
+          <label for="">Celular</label> <input type="text" class="form-control" placeholder="Numero Celular">
+        </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="form-group">
+            <label for="">Fecha Nacimiento</label> <input type="date" class="form-control" placeholder="fecha Nacimiento">
+          </div>
+          </div>
+  
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label for="">Puntaje sisben</label> <input type="number" class="form-control" placeholder="puntaje sisben">
+            </div>
+            </div>
+  
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="">Telefono</label> <input type="number" class="form-control" placeholder="Numero Telefonico">
+              </div>
+              </div>
+  
+              <div class="col-sm-4">
+                <div class="form-group">
+                  <label for="">Estrato</label> <input type="number" class="form-control" placeholder="Estrato">
+                </div>
+                </div>
+  
+                <div class="col-sm-3">
+                  <div class="form-group">
+                  
+                        <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                              Masculino
+                            </label>
+                          </div>
+            
+            
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                              Femenino
+                            </label>
+                          </div>
+                          
+                            </div>
+                          </div>
+            
+                </div>
+  
+                <p></p>
+    
+                <hr size="20px" width="100%">
+    
+                <h1 class="text-center">Datos del Acudiente</h1>
+  
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="">Nombre</label> <input type="text" class="form-control" placeholder="Nombre">
+                   </div>
+                </div>
+  
+                <div class="col-sm-4">
+                  <div class="for-group">
+                    <label for="">Apellido</label><input type="text" class="form-control" placeholder="Agregue Apellido">
+                    </div>
+                </div>
+          
+                <div class="col-sm-4">
+                <div class="form-group">
+                <label for="">  Documento </label> <input type="number" class="form-control" placeholder="Documento"> 
+                </div>
+                </div>
+  
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                </div>
+                
+               
+                <div class="col-sm-4">
+                <div class="form-group">
+                <label for=""> Edad </label> <input type="number" class="form-control" placeholder="">
+                </div>
+                </div>
+                
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="">Lugar de Nacimiento</label> <input type="text" class="form-control" placeholder="Ciudad de Nacimiento">
+                </div>
+                </div>
+                
+                <div class="col-sm-4">
+                <div class="form-group">
+                  <label for="">Dirección</label> <input type="text" class="form-control" placeholder="Dirección">
+                </div>
+                </div>
+                
+                <div class="col-sm-4">
+                  <div class="form-group">
+                    <label for="">Barrio</label> <input type="text" class="form-control" placeholder="">
+                  </div>
+                  </div>
+                
+                  <div class="col-sm-4">
+                    <div class="form-group">
+                      <label for="">RH</label> <input type="text" class="form-control" placeholder="Tipo de sangre">
+                    </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <label for="">Celular</label> <input type="text" class="form-control" placeholder="Numero Celular">
+                      </div>
+                      </div>
+                
+                      <div class="col-sm-4">
+                        <div class="form-group">
+                          <label for="">Fecha Nacimiento</label> <input type="date" class="form-control" placeholder="fecha Nacimiento">
+                        </div>
+                        </div>
+                
+                    
+                          <div class="col-sm-4">
+                            <div class="form-group">
+                              <label for="">Telefono</label> <input type="number" class="form-control" placeholder="Numero Telefonico">
+                            </div>
+                            </div>
+                
+                            <div class="col-sm-4">
+                              <div class="form-group">
+                                <label for="">Parentesco</label> <input type="text" class="form-control" placeholder="Parentesco">
+                              </div>
+                              </div>
+  
+                              <div class="col-sm-3">
+                                <div class="form-group">
+                                
+                                      <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
+                                      <div class="col-sm-10">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                          <label class="form-check-label" for="gridRadios1">
+                                            Masculino
+                                          </label>
+                                        </div>
+                          
+                          
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                          <label class="form-check-label" for="gridRadios2">
+                                            Femenino
+                                          </label>
+                                        </div>
+                                        
+                                          </div>
+                                        </div>
+                          
+                              </div>
+  
+                              <p></p>
+                              <hr size="20px" width="100%">
+                              
+  
+  </div>
+  
+  </form>
+  
+  <div class="text-lg-center">
+    <button type="submit" class="btn btn-primary" style="margin: 10px;">Guardar</button>
+    <button type="submit" class="btn btn-primary">Regresar</button>
+  </div>
+  <p></p><p></p>
+  
+  
+  </div>
